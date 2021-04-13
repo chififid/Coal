@@ -1,0 +1,16 @@
+.page__header {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo__img {
+    width: 200px;
+}
+
+.header__creator {
+    font-size: 24px;
+}

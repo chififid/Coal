@@ -1,0 +1,64 @@
+// page
+h3 {
+    font-size: 48px;
+}
+
+// banner
+.banner {
+    background-image: url(./../img/baner.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    min-height: 580px;
+}
+
+// description
+.description {
+    background-color: #191817;
+}
+
+.page__description {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.description__title {
+    color: #9B8158;
+}
+
+.description__text {
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+// world / russian / output
+.world, .russian, .output {
+    background-color: #9B8158;
+    padding-bottom: 50px;
+}
+
+.world__banner {
+    width: 100%;
+}
+
+.page__world, .page__russian, .page__output {
+    max-width: 900px;
+    margin: -100px auto 0;
+    padding: 50px 100px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.world__title, .russian__title, .output__title {
+    text-align: center;
+}
+
+.world__text, .russian__text, .output__text {
+    margin-top: 15px;
+}
+
+.page__russian, .page__output {
+    margin: 0 auto 0;
+}
